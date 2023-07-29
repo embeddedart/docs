@@ -1,0 +1,123 @@
+site_name: Embedded Art Documentation
+site_url: https://docs.embeddedart.in/
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.tracking
+    - content.tabs.link 
+    # - navigation.expand
+    # - navigation.indexes
+    # # - navigation.instant
+    # # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.top
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    # - content.code.copy
+    # # - content.code.select
+    # - content.tooltips
+    # # - header.autohide
+   
+    # - search.highlight
+    # - search.share
+    # - search.suggest
+    # - toc.follow
+    # # - toc.integrate
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+# plugins:
+#   - glightbox
+
+
+
+    
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2023 Brijesh Khokhar
+
+extra:
+  # The footer displays a Made with Material for MkDocs notice to denote how the site was generated. The notice can be removed with the following option via below
+  generator: true
+
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@brijeshkhokhar
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/khokhar_brijesh
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/brijesh-khokhar-422326189/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/embeddedart.in/
+    - icon: fontawesome/brands/github
+      link: https://github.com/embeddedart
+
+
+
+# Page tree
+nav:
+  - Home: index.md
+  - Products:
+    - IOT Gateway Protocol: products/IOT-Gateway-Protocol/index.md
+    - Elevator:
+      - Elevator Controller: products/elevator-controller/index.md
+      - Elevator Control Panel: products/elevator-control-panel/index.md
+  - Blog:
+    - Blog: blog/index.md
+    - GPBO: blog/GPBO/index.md
+    - APN Name: blog/APN-Name/index.md
+    - DWIN 7 Inch Display: blog/dwin-7inch-display/index.md
+    - Modbus Protocol: blog/modbus-protocol/index.md
+    - Python File Server: blog/python-file-server/index.md
+    - Python Virtual Environment: blog/python-virtual-environment/index.md
+    - SIM7600 AT Command: blog/sim7600-4g command/index.md
+    - STM32 cubeProgrammer: blog/stm32-cubeprogrammer/index.md
+
+    - Embedded Art:
+      - EA_0025_V3 Switch PCB: blog/embedded-art/switch-pcb-solder-guide-EA_0025_V3/index.md
+
+
+
+
+
+
+
+
+
