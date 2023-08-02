@@ -105,9 +105,11 @@ nav:
     - APN Name: blog/APN-Name/index.md
     - DWIN 7 Inch Display: blog/dwin-7inch-display/index.md
     - Modbus Protocol: blog/modbus-protocol/index.md
-    - Python File Server: blog/python-file-server/index.md
-    - Python Virtual Environment: blog/python-virtual-environment/index.md
-    - SIM7600 AT Command: blog/sim7600-4g command/index.md
+    - Python:
+      - Python File Server: blog/python/python-file-server/index.md
+      - Python Virtual Environment: blog/python/python-virtual-environment/index.md
+      - Python PyQt GUI: blog/python/python-PyQt-GUI/index.md
+    # - SIM7600 AT Command: blog/sim7600-4g command/index.md
     - STM32 cubeProgrammer: blog/stm32-cubeprogrammer/index.md
 
     - Embedded Art:
