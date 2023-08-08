@@ -12,14 +12,12 @@ description: >
 
 In which ever directory you are, this line below will create a virtualenv there, you can name it anything.
 ```
-> virtualenv venv
+virtualenv venv
 ```
-
 <br>
-
 Now if you are in same directory then type,
 ```
-> venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 to deactivate
