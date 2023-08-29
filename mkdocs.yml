@@ -99,6 +99,8 @@ nav:
     - Elevator:
       - Elevator Controller: products/elevator-controller/index.md
       - Elevator Control Panel: products/elevator-control-panel/index.md
+    - LED Display:
+      - LED Display Control Card: products/led-display-control-card/index.md
   - Blog:
     - Blog: blog/index.md
     - GPBO: blog/GPBO/index.md
