@@ -101,6 +101,7 @@ nav:
       - Elevator Control Panel: products/elevator-control-panel/index.md
     - LED Display:
       - LED Display Control Card: products/led-display-control-card/index.md
+    - Serial To TCP Converter: products/Serial-To-TCP-Converter/index.md
   - Blog:
     - Blog: blog/index.md
     - GPBO: blog/GPBO/index.md
@@ -111,6 +112,7 @@ nav:
       - Python File Server: blog/python/python-file-server/index.md
       - Python Virtual Environment: blog/python/python-virtual-environment/index.md
       - Python PyQt GUI: blog/python/python-PyQt-GUI/index.md
+      - Python Requirement File Command: blog/python/python-requirement-file/index.md
     # - SIM7600 AT Command: blog/sim7600-4g command/index.md
     - STM32 cubeProgrammer: blog/stm32-cubeprogrammer/index.md
 

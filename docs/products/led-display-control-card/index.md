@@ -32,15 +32,39 @@ Use Function **06 : Write Single Register** to change below settings.
 | LED Module Count | 29   | 1-9 |
 | Firmware Version | 32   |  |
 | Font Type | 35   | Regular = 0 (single line) <br> Big = 1 (dual line) |
+| Brightness | 36   | 1-58 |
+| Baudrate | 37 | *see below |
+| Data Bits | 38 | 7 = 7 Data Bits <br> 9 = 9 Data Bits <br> Any Other Val = 8 Data Bits |
+| Parity | 39 | 1 = Odd <br> 2 = Even <br> Any Other Val = None |
+| Stop Bits | 40 | 2 = 2 Stop Bits <br> Any Other Val = 1 Stop Bits |
 | Modbus Device ID | 41 | - |
+| Save Setting | 42 | 1 |
 
+Baudrate Setting: <br> 
+0 = 300 <br> 
+1 = 600 <br> 
+2 = 1200 <br> 
+3 = 2400 <br> 
+4 = 4800 <br> 
+5 = 9600 <br> 
+6 = 14400 <br> 
+7 = 19200 <br> 
+8 = 28800 <br> 
+9 = 38400 <br> 
+10 = 56000 <br> 
+11 = 57600 <br> 
+12 = 115200 <br> 
+13 = 128000 <br> 
+14 = 256000 <br> 
+other = 9600 <br> 
+	
 Note : Do not modify any other address value.
 
 ---
 
 Use Function **16 : Write Multiple Registers** to write data on display
 
-Line 1 start adress = 1000
+Line 1 start adress = 1000  
 Line 2 start adress = 2000
 
 ---

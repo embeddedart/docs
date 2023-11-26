@@ -15,7 +15,7 @@ This is a placeholder page that shows you how to use this template site.
 
 ## Specification
 * Supply Voltage : 12VDC / 24VDC
-* No of Stop: Upto G+7
+* No of Stop: Upto G+8 (9 Opening)
 * Auto Door / Manual Door
 * All Reed / Three Reed
 * An error are display on LCD display.
