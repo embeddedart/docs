@@ -28,8 +28,8 @@ Use Function **06 : Write Single Register** to change below settings.
 
 | Parameter Name | Address | Value |
 | :---:   | :---: | :---: |
-| Protocol | 31 | EA = 0 <br> MODBUS = 1 |
 | LED Module Count | 29   | 1-9 |
+| Protocol | 31 | EA = 0 <br> MODBUS = 1 |
 | Firmware Version | 32   |  |
 | Font Type | 35   | Regular = 0 (single line) <br> Big = 1 (dual line) |
 | Brightness | 36   | 1-58 |
