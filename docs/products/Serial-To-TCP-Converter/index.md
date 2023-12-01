@@ -12,8 +12,14 @@ This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 -->
 
+### Default Setting
+DEVICE IP   : 192.168.0.213  
+SUBNET IP   : 255.255.255.0  
+GATEWAY IP  : 192.168.0.1  
 
-# Setting Command from LAN
+
+
+## Setting Command from LAN
 ```
 Send      : %{,??,INFO,}!
 Response  : 
@@ -22,11 +28,6 @@ Response  :
 
 ---
 
-```
-Example
-Set       : %{,??,TBL,START ADD,QUANTITY,VALUE,}!
-Get       : %{,??,GETTBL,START ADD,QUANTITY,}!
-```
 
 ```
 DHCP Enable/Disable:
@@ -98,6 +99,11 @@ Set       : %{,??,RSTMCU,}!
 Note      : Do Not Use This Command.
 ```
 
+Note : Hold reset switch for 5 seconds while device boot to reset setting.
+
+## Documents
+
+<p>Open a <a href="IP_Finder.exe"  target="_blank">IP Finder</a></p>
 
 
 ---
