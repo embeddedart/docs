@@ -95,13 +95,14 @@ extra:
 nav:
   - Home: index.md
   - Products:
-    - IOT Gateway Protocol: products/IOT-Gateway-Protocol/index.md
     - Elevator:
       - Elevator Controller: products/elevator-controller/index.md
       - Elevator Control Panel: products/elevator-control-panel/index.md
     - LED Display:
       - LED Display Control Card: products/led-display-control-card/index.md
     - Serial To TCP Converter: products/Serial-To-TCP-Converter/index.md
+    - IOT Gateway Protocol: products/IOT-Gateway-Protocol/index.md
+    # - IOT Gateway Protocol Comma: products/IOT-Gateway-Protocol-Comma/index.md
   - Blog:
     - Blog: blog/index.md
     - GPBO: blog/GPBO/index.md
