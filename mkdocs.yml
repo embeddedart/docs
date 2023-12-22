@@ -102,7 +102,7 @@ nav:
       - LED Display Control Card: products/led-display-control-card/index.md
     - Serial To TCP Converter: products/Serial-To-TCP-Converter/index.md
     - IOT Gateway Protocol: products/IOT-Gateway-Protocol/index.md
-    # - IOT Gateway Protocol Comma: products/IOT-Gateway-Protocol-Comma/index.md
+    - IOT Gateway Protocol Comma: products/iot-gateway-protocol-comma/index.md
   - Blog:
     - Blog: blog/index.md
     - GPBO: blog/GPBO/index.md
