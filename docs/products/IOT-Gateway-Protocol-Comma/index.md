@@ -42,12 +42,20 @@ Response :
 ```
 
 ```
+Get Device Time (Real Time)
+Send : 
+@@,gettime,##
+
+```
+
+```
 To read data from modbus device and this data will sent on server.
 
 @@,txn no, txn flag, modbus id, function code, start add, qty, poll interval, txn timeout, txn retry count,##
 
 Send :
 @@,txn,0,1,1,3,0,10,3000,1000,1,##
+
 Response :
 @@,txn ok,XX,##
 ```
