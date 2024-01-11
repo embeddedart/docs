@@ -105,20 +105,20 @@ nav:
     - IOT Gateway Protocol Comma: products/iot-gateway-protocol-comma/index.md
   - Blog:
     - Blog: blog/index.md
-    - GPBO: blog/GPBO/index.md
-    - APN Name: blog/APN-Name/index.md
-    - DWIN 7 Inch Display: blog/dwin-7inch-display/index.md
-    - Modbus Protocol: blog/modbus-protocol/index.md
+    - Embedded Art:
+      - EA_0025_V3 Switch PCB: blog/embedded-art/switch-pcb-solder-guide-EA_0025_V3/index.md
     - Python:
       - Python File Server: blog/python/python-file-server/index.md
       - Python Virtual Environment: blog/python/python-virtual-environment/index.md
       - Python PyQt GUI: blog/python/python-PyQt-GUI/index.md
       - Python Requirement File Command: blog/python/python-requirement-file/index.md
+    - GPBO: blog/GPBO/index.md
+    - APN Name: blog/APN-Name/index.md
+    - DWIN 7 Inch Display: blog/dwin-7inch-display/index.md
+    - Modbus Protocol: blog/modbus-protocol/index.md
     # - SIM7600 AT Command: blog/sim7600-4g command/index.md
     - STM32 cubeProgrammer: blog/stm32-cubeprogrammer/index.md
-
-    - Embedded Art:
-      - EA_0025_V3 Switch PCB: blog/embedded-art/switch-pcb-solder-guide-EA_0025_V3/index.md
+    - MkDocs: blog/mkdocs/index.md
 
 
 

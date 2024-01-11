@@ -12,7 +12,7 @@ This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 -->
 
-### Default Setting
+## Default Setting
 DEVICE IP   : 192.168.0.213  
 SUBNET IP   : 255.255.255.0  
 GATEWAY IP  : 192.168.0.1  
@@ -89,6 +89,8 @@ Set       : %{,??,PORT,26,2,1234,}!
            
 Get       : %{,??,GETPORT,26,2,}!
 Response  : <<,13,GETPORT,26,2,1234,>>{0D}{0A}
+
+** Note: PORT 80 is reserverd **
 ```
 
 ```
@@ -104,7 +106,8 @@ Note : Hold reset switch for 5 seconds while device boot to reset setting.
 ## Documents
 
 <p>Open a <a href="IP_Finder.exe"  target="_blank">IP Finder</a></p>
-
+- Used to find IP of device.
+- Command to reset device setting.
 
 ---
 
