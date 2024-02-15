@@ -19,7 +19,11 @@ To get device serial number :
 @@,getsrno,##
 ```
 
+```
+device restart :
 
+@@,restart,##
+```
 
 
 # SMS for Configuration :

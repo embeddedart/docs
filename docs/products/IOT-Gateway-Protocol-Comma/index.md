@@ -23,7 +23,7 @@ D62 = RED
 	when blink = sending data to server
 ```
 
-# MQTT Configuration From Server Command :
+# Configuration From Server Command :
 ```
 To test server communication with hardware
 Send : 
@@ -32,6 +32,24 @@ Response :
 @@,test ok,XX,##
   - XX = any number
 ```
+
+```
+To get some info about device
+Send : 
+@@,info,##
+```
+
+
+---
+
+```
+set NTP Server and Timezone
+@@,ntpserver,time.nist.gov,22,##
+
+Get NTP Server and Timezone
+@@,getntpserver,##
+```
+
 
 ```
 Time Sync Command : 
@@ -47,6 +65,8 @@ Send :
 @@,gettime,##
 
 ```
+
+---
 
 ```
 To read data from modbus device and this data will sent on server.
@@ -157,7 +177,7 @@ SMS 44 1 7048593237 xxxx
 ```
 
 ```
-To get MQTT related setting via SMS :
+To get device setting via SMS :
 
 44 10 Mqtt_Port
 44 11 MQTT_server_IP
@@ -165,6 +185,7 @@ To get MQTT related setting via SMS :
 44 13 MQTT_Password
 44 14 MQTT_publish_topic
 44 15 MQTT_subscribe_topic
+44 16 NTP Server
 44 20 reconnect_to_mqtt_server
 ```
 
